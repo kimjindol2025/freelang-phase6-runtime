@@ -1,0 +1,4 @@
+/* Phase 6.5 Runtime - Module Integration */
+
+pub use crate::lib::Core;
+pub use crate::lib::initialize;
