@@ -1,6 +1,44 @@
+# Generated files
+*.o
+*.a
+*.so
+*.pyc
+*.pyo
+__pycache__/
+.DS_Store
 *.swp
 *.swo
 *~
-.DS_Store
-*.log
+
+# Build artifacts
 target/
+dist/
+build/
+bin/
+obj/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+
+# Runtime
+*.log
+*.tmp
+cache/
+.cache/
+
+# Dependencies
+node_modules/
+vendor/
+Cargo.lock
+package-lock.json
+
+# Test coverage
+coverage/
+*.lcov
+
+# OS specific
+.DS_Store
+Thumbs.db
